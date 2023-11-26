@@ -1,0 +1,153 @@
+.products-content {
+    padding-right: 0;
+    /* margin: 0; */
+}
+
+.products-content h1 {
+    margin: 5px 0px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.products-content h4 {
+    margin: 20px 0px;
+    /* margin-bottom: 20px; */
+    letter-spacing: 1px;
+}
+
+.products-content div div div[class~="row"] {
+    align-items: center;
+}
+
+.slider-image {
+    background-size: cover;
+    height: 80vh !important;
+}
+
+.definitions {
+    margin-bottom: -5px;
+}
+
+.definition {
+    margin-top: 40px !important;
+}
+
+.products-image {
+    margin: 0 0 0px auto !important;
+    width: 320px;
+    height: 275px;
+    margin-bottom: 3px !important;
+}
+
+/* .content-center .definition-heading {
+    margin-left: auto !important;
+} */
+
+.content-li ul li {
+    padding: 0;
+    margin-left: -25px;
+    padding-left: 0px;
+}
+
+.more-products img {
+    height: 280.4px;
+    width: 362.4px;
+}
+
+.our-products img {
+    height: 300.4px;
+    /* width: 260.4px !important; */
+}
+
+.navbar-brand img[alt='Logo'] {
+    width: 220px;
+    height: 115px;
+    margin-bottom: 2px;
+}
+
+.navbar-nav{
+    text-transform: capitalize !important;
+}
+
+@media screen and (max-width: 500px) {
+    .content-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar-brand img[alt='Logo'] {
+        width: 140px;
+        height: 63px;
+    }
+}
+
+.home-slider .element-animate {
+    margin: 0 auto;
+}
+
+.category-box>div:hover {}
+
+@media screen and (max-width:767px) {
+    .products-image {
+        margin: 0 auto !important;
+        margin-bottom: 3px;
+    }
+}
+@media screen and (max-width:400px) {
+    .products-image {
+        margin: 0 auto !important;
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navbar-brand img[alt='Logo'] {
+        width: 120px;
+        height: 55px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .products-content h1 {
+        font-size: 30px;
+    }
+
+    .products-content h4 {
+        font-size: 22px;
+    }
+
+    .products-image {
+        width: 290px;
+        height: 265px;
+        margin-bottom: 3px;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    .products-image {
+        width: 270px;
+        height: 210px;
+        margin-bottom: 3px;
+    }
+
+}
+@media screen and (max-width: 372px) {
+      .products-image {
+        margin: 0 -1.5px 3px auto !important;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .products-content h1 {
+        font-size: 22px;
+    }
+
+    .products-content h4 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
